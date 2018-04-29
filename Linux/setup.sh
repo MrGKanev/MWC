@@ -1,5 +1,23 @@
-# Version 0.0.1
-#script to install all the required software
+# #################################################################
+#
+# The MWC script is made to work on Ubuntu.
+# Written to be used on 64 bits computers
+#
+# Original Author   : Gabriel Kanev
+# Website           : http://www.mrgkanev.eu
+#
+# Version           : 1.0.1
+# Start date        : 28/04/2018
+# Last modified date: 29/04/2018
+#
+# #################################################################
+
+###################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+# 						IT CAN BRAKE THINGS
+#
+###################################################################
 
 #update the system
 sudo apt-get update
@@ -9,7 +27,12 @@ sudo apt-get upgrade -y
 #install required software
 sudo apt-get install curl git-core build-essential autoconf postgresql mutt parcellite alarm-clock gtimelog irssi shutter vlc htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
 sudo apt-get install meld autojump trayer xloadimage banshee gnome-do beanstalkd redis-server -y
+sudo apt-get install -y nodejs
+sudo apt-get install -y npm
 
+# These lines need to be changed with your own credentials
+git config --global user.name "mrgkanev"
+git config --global user.email "contact@mrgkanev.eu"
 
 echo "install dropbox"
 
