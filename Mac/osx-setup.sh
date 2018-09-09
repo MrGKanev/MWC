@@ -102,7 +102,7 @@ defaults write com.apple.terminal StringEncodings -array 4
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
 
-# Setting screenshot format to PNG 
+# Setting screenshots format to PNG 
 defaults write com.apple.screencapture type -string "png"
 
 # Enabling Safari's debug menu 

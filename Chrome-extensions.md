@@ -9,6 +9,6 @@ Here you can see all the chrome extensions which I use.
 - [Grammarly for Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) - Enhance your written communication everywhere you type!
 - [PanicButton](https://chrome.google.com/webstore/detail/panicbutton/faminaibgiklngmfpfbhmokfmnglamcm) - Hide all your tabs at once with one single button and restore them later.
 - [Social Blade](https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn) - See the best of Social Blade Stats right on YouTube, TwitchTV, Twitter and Instagram
-- [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) - Take FULL webpage screenshots. Capture, edit and save them to PDF/JPEG/GIF/PNG, upload, print, send to OneNote, clipboard or email.
+- [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) - Take FULL web page screenshots. Capture, edit and save them to PDF/JPEG/GIF/PNG, upload, print, send to OneNote, clipboard or email.
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) - Finally, an efficient blocker. Easy on CPU and memory.
 

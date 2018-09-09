@@ -43,8 +43,8 @@ sudo apt-get install vlc -y
 sudo apt-get install ubuntu-restricted-extras -y
 sudo snap install spotify -y
 
-# Customising things
-echo "A bif of customising for Gnome"
+# Customizing things
+echo "A bif of customization for Gnome"
 sudo apt-get install gnome-tweak-tool -y
 
 # Adding Sublime text 3 

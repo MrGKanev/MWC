@@ -1,7 +1,7 @@
 ## Windows version of MWC
 
 ## Software
-There will be some steps for installing all the software on your conputer. For now i don't know an alternative to Linux terminal that can install software like that. 
+There will be some steps for installing all the software on your computer. For now i don't know an alternative to Linux terminal that can install software like that. 
 1.The first software we are going to use is [Ninite](https://ninite.com). They are fremium software so i think it will be great for here.
 
 | Name     | License |
