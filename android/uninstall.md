@@ -1,9 +1,10 @@
+Package -> Name -> Priority
 com.mobeam.barcodeService
 com.samsung.android.provider.filterprovider
 com.monotype.android.font.rosemary
-com.skype.raider
+com.skype.raider -> Skype -> Save to remove
 com.sec.android.widgetapp.samsungapps
-com.google.android.youtube
+com.google.android.youtube -> Youtube -> Save to remove
 com.samsung.android.app.galaxyfinder
 com.sec.location.nsflp2
 com.sec.android.app.chromecustomizations
@@ -34,7 +35,7 @@ com.samsung.android.widgetapp.yahooedge.finance
 com.samsung.android.slinkcloud
 com.dsi.ant.service.socket
 com.sec.android.AutoPreconfig
-com.microsoft.skydrive
+com.microsoft.skydrive - OneDrive
 com.sec.android.ofviewer
 com.samsung.android.drivelink.stub
 com.samsung.hs20provider
@@ -90,7 +91,7 @@ com.android.wallpaper.livepicker
 com.samsung.android.beaconmanager
 com.sec.enterprise.mdm.services.simpin
 com.amazon.mShop.android
-com.facebook.system
+com.facebook.system -> Facebook app -> Save to remove (makes you happier)
 com.samsung.android.oneconnect
 com.samsung.android.fmm
 com.samsung.android.mdm
@@ -103,7 +104,7 @@ com.samsung.android.spayfw
 com.samsung.android.svoice
 com.samsung.android.visioncloudagent
 com.samsung.android.spay
-com.samsung.android.app.spage
+com.samsung.android.app.spage - Bixby home
 com.sec.android.emergencylauncher
 com.sec.hearingadjust
 com.samsung.android.dlp.service
@@ -120,3 +121,4 @@ com.facebook.appmanager
 com.qualcomm.qti.auth.fidosuiservice
 com.sec.android.app.magnifier
 com.samsung.android.bixby.agent.dummy
+com.sec.android.inputmethod -> Samsung Keyboard -> Save to remove
