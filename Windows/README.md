@@ -2,7 +2,8 @@
 
 ## Software
 There will be some steps for installing all the software on your computer. For now i don't know an alternative to Linux terminal that can install software like that. 
-1.The first software we are going to use is [Ninite](https://ninite.com). They are fremium software so i think it will be great for here.
+1. Clean all the bloadware that Windows 10 has. Running Remove-windows10-bloat.bat as Administrator.
+2.The first software we are going to use is [Ninite](https://ninite.com). They are fremium software so i think it will be great for here.
 
 | Name     | License |
 | ---      | ---     |
@@ -12,11 +13,11 @@ There will be some steps for installing all the software on your computer. For n
 | Chrome   | Free    |
 | FileZilla| Free    |
 | Firefox  | Free    |
-|Google Backup| Free    |
+| Google Backup| Free    |
 | Java 8   | Free    |
 | JDK 8    | Free    |
 | JDK x64 8| Free    |
-|Malwarebytes | Free    |
+| Malwarebytes | Free    |
 | Notepad++ | Free    |
 | Opera    | Free    |
 | Chromium | Free    |
