@@ -6,9 +6,9 @@
 # Original Author   : Gabriel Kanev
 # Website           : http://www.mrgkanev.eu
 #
-# Version           : 1.0.1
+# Version           : 1.0.2
 # Start date        : 28/04/2018
-# Last modified date: 01/05/2018
+# Last modified date: 28/05/2019
 #
 # #################################################################
 
@@ -40,6 +40,7 @@ fi
 # Update homebrew recipes
 echo "Updating homebrew..."
 brew update
+xargs brew install < brew.txt
 
 # Adding Git to the system
 echo "Installing Git..."
