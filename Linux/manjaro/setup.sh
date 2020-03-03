@@ -30,7 +30,7 @@ sed --in-place "s/#EnableAUR/EnableAUR/" "/etc/pamac.conf"
 sed --in-place "s/#CheckAURUpdates/CheckAURUpdates/" "/etc/pamac.conf"
 
 # Install required software
-pacman -Ss build-essential autoconf postgresql mutt parcellite alarm-clock gtimelog irssi shutter htop git-gui vifm imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
+pacman -Ss mutt parcellite alarm-clock gtimelog irssi shutter htop vifm libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
 pacman -Ss meld autojump trayer xloadimage banshee gnome-do beanstalkd -y
 pacman -Ss -y nodejs
 pacman -Ss -y npm
