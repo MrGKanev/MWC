@@ -58,11 +58,8 @@ brew install tmux reattach-to-user-namespace
 echo "Installing brew git utilities..."
 brew install git-extras
 brew install legit
-brew install git-flow
-brew install tree
 brew install wget
 brew install trash
-brew install svn
 brew install mackup
 brew install node
 

@@ -6,7 +6,6 @@ libtool
 pcre
 unixodbc
 apr-util
-fish
 icu4c
 libidn
 libzip
@@ -14,10 +13,8 @@ pcre2
 webp
 argon2
 freetds
-jansson
 libmetalink
 lsd
-php
 xz
 aspell
 freetype
@@ -34,15 +31,11 @@ readline
 brotli
 gettext
 libev
-libsodium
-ode
-rtmpdump
 c-ares
 glib
 libevent
 ibssh2
 openldap
-sqlite
 cmake
 gmp
 libffi

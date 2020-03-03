@@ -1,4 +1,4 @@
-## LUbuntu based version of MWC
+## Ubuntu based version of MWC
 
 ### Running
 If you want to run the setup.sh you need to download/fork it and change lines 34 and 35. (Git information)
