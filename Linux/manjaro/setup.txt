@@ -1,0 +1,66 @@
+# #################################################################
+#
+# The MWC script is made to work on Manjaro.
+# Written to be used on 64 bits computers
+#
+# Original Author   : Gabriel Kanev
+# Website           : http://www.mrgkanev.eu
+#
+# Version           : 1.0.1
+# Start date        : 01/03/2020
+# Last modified date: 20/04/2020
+#
+# #################################################################
+
+###################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#					IT CAN BRAKE A LOT OF THINGS
+#
+###################################################################
+
+android-studio
+anydesk-bin
+audacious
+audacity
+awesome-terminal-fonts
+code
+dart
+discord
+docker
+docker-compose
+docker-machine
+etcher
+flutter
+google-chrome
+htop
+httrack
+hugo
+inkscape
+jpegoptim
+kdenlive
+keybase-bin
+kgpg
+kolourpaint
+krita
+lib32-vulkan-intel
+lib32-vulkan-radeon
+libreoffice-still
+lutris
+mailspring
+mysql-workbench
+obs-studio
+opera
+optipng
+powerline
+powerline-fonts
+slack-desktop
+spotify
+syncthing
+syncthing-gtk
+tor-browser
+typora
+vlc
+vulkan-intel
+vulkan-radeon
+xclip
