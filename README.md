@@ -8,4 +8,5 @@ I work in a mix of environments or in other words in home i have Windows and Lin
 - [Firefox extensions](/firefox-extensions.md)
 - [Windows setup](windows/readme.md)
 - [Linux (Ubuntu) based setup](linux/readme.md)
+- [Linux (Manjaro) based setup](linux/readme.md) 
 - [Mac OS setup](mac/readme.md)
