@@ -7,6 +7,6 @@ I work in a mix of environments or in other words in home i have Windows and Lin
 - [Chrome extensions](/chrome-extensions.md)
 - [Firefox extensions](/firefox-extensions.md)
 - [Windows setup](windows/readme.md)
-- [Linux (Ubuntu) based setup](linux/readme.md)
-- [Linux (Manjaro) based setup](linux/readme.md) 
+- [Linux (Ubuntu) based setup](linux/ubuntu.md)
+- [Linux (Manjaro) based setup](linux/manjaro.md) 
 - [Mac OS setup](mac/readme.md)
