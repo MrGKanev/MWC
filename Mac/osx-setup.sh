@@ -4,11 +4,11 @@
 # Written to be used on 64 bits computers
 #
 # Original Author   : Gabriel Kanev
-# Website           : http://www.mrgkanev.eu
+# Website           : https://www.mrgkanev.eu
 #
 # Version           : 1.0.2
 # Start date        : 28/04/2018
-# Last modified date: 28/05/2019
+# Last modified date: 22/04/2020
 #
 # #################################################################
 
@@ -52,7 +52,7 @@ git config --global user.name "mrgkanev"
 git config --global user.email contact@mrgkanev.eu
 
 
-brew install htop zsh vim
+brew install htop zsh
 brew install tmux reattach-to-user-namespace
 
 echo "Installing brew git utilities..."
@@ -70,13 +70,6 @@ brew cleanup
 # Create code directory
 mkdir -p ~/code
 
-# Lastly adding oh my fish
-echo "Installing The Fishshell Framework"
-curl -L https://get.oh-my.fish | fish
-
-#Adding the theme 
-echo "Adding my favourite theme (Bob the fish)"
-omf install bobthefish
 
 # You'll be able to install any app you want from here on, not just Mac App Store apps
 sudo spctl --master-disable
