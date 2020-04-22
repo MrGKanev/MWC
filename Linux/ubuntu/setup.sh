@@ -4,11 +4,11 @@
 # Written to be used on 64 bits computers
 #
 # Original Author   : Gabriel Kanev
-# Website           : http://www.mrgkanev.eu
+# Website           : https://www.mrgkanev.eu
 #
 # Version           : 1.0.2
 # Start date        : 28/04/2018
-# Last modified date: 03/03/2020
+# Last modified date: 22/04/2020
 #
 # #################################################################
 
@@ -24,6 +24,9 @@ sudo apt-get update
 sudo apt-get dist-upgrade -y
 sudo apt-get upgrade -y
 
+# Enable Spaps
+sudo apt install snapd -y
+sudo snap install snapd - y
 # Install required software
 sudo apt-get install curl git-core build-essential autoconf postgresql mutt parcellite gtimelog irssi shutter htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
 sudo apt-get install meld autojump trayer xloadimage banshee gnome-do beanstalkd -y
