@@ -1,12 +1,11 @@
 # #################################################################
 #
 # The MWC script is made to work on Manjaro.
-# Written to be used on 64 bits computers
 #
 # Original Author   : Gabriel Kanev
-# Website           : http://www.mrgkanev.eu
+# Website           : https://www.mrgkanev.eu
 #
-# Version           : 1.0.1
+# Version           : 1.0.2
 # Start date        : 01/03/2020
 # Last modified date: 20/04/2020
 #
