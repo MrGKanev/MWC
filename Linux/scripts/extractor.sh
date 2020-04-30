@@ -13,7 +13,7 @@ extract () {
 	if hash dtrx 2> /dev/null; then
 		dtrx $@
 	else
-		echo "Please install dtrx: sudo apt-get install dtrx"
+		echo "Please install dtrx: sudo apt install dtrx"
 		#exit 0
 	fi
 }

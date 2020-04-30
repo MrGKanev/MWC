@@ -6,9 +6,9 @@
 # Original Author   : Gabriel Kanev
 # Website           : https://www.mrgkanev.eu
 #
-# Version           : 1.0.2
+# Version           : 1.0.3
 # Start date        : 28/04/2018
-# Last modified date: 22/04/2020
+# Last modified date: 1/05/2020
 #
 # #################################################################
 
@@ -20,16 +20,18 @@
 ###################################################################
 
 # Update the system
-sudo apt-get update
-sudo apt-get dist-upgrade -y
-sudo apt-get upgrade -y
+echo "Welcome! Lets install some apps! :)"
+sudo apt update
+sudo apt dist-upgrade -y
+sudo apt upgrade -y
 
 # Enable Spaps
 sudo apt install snapd -y
 sudo snap install snapd - y
+
 # Install required software
-sudo apt-get install curl git-core build-essential autoconf postgresql mutt parcellite gtimelog irssi shutter htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
-sudo apt-get install meld autojump trayer xloadimage banshee gnome-do beanstalkd -y
+sudo apt install curl ffmpeg git-core build-essential autoconf postgresql mutt parcellite gtimelog irssi shutter htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
+sudo apt install meld autojump trayer xloadimage banshee gnome-do beanstalkd -y
 
 # These lines need to be changed with your own credentials
 git config --global user.name "mrgkanev"
@@ -38,13 +40,13 @@ git config --global user.email "contact@mrgkanev.eu"
 
 # Let's install some media stuff
 echo "Installing the media stuff"
-sudo apt-get install vlc -y
-sudo apt-get install ubuntu-restricted-extras -y
+sudo apt install vlc -y
+sudo apt install ubuntu-restricted-extras -y
 sudo snap install spotify -y
 
 # Customizing things
 echo "A bif of customization for Gnome"
-sudo apt-get install gnome-tweak-tool -y
+sudo apt install gnome-tweak-tool -y
 
 # Adding Visual Studio Code
 echo "Lets install the IDE (Visual Studio Code)"
@@ -55,8 +57,24 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microso
 # Fixing the Powerline
 echo "Adding the better Powerline"
 sudo apt install zsh -y
-sudo apt-get install powerline fonts-powerline -y
-sudo apt-get install fish -y
-echo" You need to switch to fish by hand: https://github.com/robbyrussell/oh-my-zsh.git "
+sudo apt install powerline fonts-powerline -y
+
+echo "Installing oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cp ~/.yadm/zshrc ~/.zshrc
+touch ./aliases-linux.sh
+cp ~/.yadm/aliases-linux ~/.aliases
+source ~/.aliases
+source ~/.zshrc
+touch ~/.zprofile
+cp ~/.yadm/zprofile ~/.zprofile
+
+echo "Installing Hugo"
+sudo apt -y install hugo
+
+echo "Installing the GitHub CLI"
+curl -o ./gh.deb -L https://github.com/cli/cli/releases/download/v0.6.1/gh_0.6.1_linux_amd64.deb
+sudo apt install -y git && sudo dpkg -i ./gh.deb
+rm ./gh.deb
 
 
