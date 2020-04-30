@@ -30,7 +30,7 @@ sudo apt install snapd -y
 sudo snap install snapd - y
 
 # Install required software
-sudo apt install curl ffmpeg git-core build-essential autoconf postgresql mutt parcellite gtimelog irssi shutter htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
+sudo apt install curl ffmpeg git-core build-essential autoconf postgresql xclip net-tools golang byobu direnv zsh wget mutt parcellite gtimelog irssi shutter htop git-gui vifm libgmp3c2 libgmpxx4ldbl libgmp3-dev imagemagick libmagickcore-dev libmagickcore4 libmagickcore4-extra libmagickwand-dev libmagickwand4 -y
 sudo apt install meld autojump trayer xloadimage banshee gnome-do beanstalkd -y
 
 # These lines need to be changed with your own credentials
