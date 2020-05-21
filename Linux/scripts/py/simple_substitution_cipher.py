@@ -1,4 +1,4 @@
-# For everybody asking this is such a ducking waist of my time it isn't even funny. This class is as useless as the tearcher itself.
+# For everybody asking this is such a ducking waist of my time it isn't even funny. This class is as useless as the tearcher herself.
 import random, sys
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
