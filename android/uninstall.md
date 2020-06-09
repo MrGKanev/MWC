@@ -22,6 +22,8 @@ pm uninstall -k --user 0 com.sec.android.easyMover.Agent
 pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub
 pm uninstall -k --user 0 com.sec.android.daemonapp
 pm uninstall -k --user 0 com.samsung.android.app.social
+pm uninstall -k --user 0 com.samsung.android.app.notes
+pm uninstall -k --user 0 com.sec.android.app.music
 
 SAMSUNG PASS / PAY
 pm uninstall -k --user 0 com.samsung.android.samsungpassautofill
