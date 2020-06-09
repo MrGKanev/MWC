@@ -7,7 +7,7 @@ Prerequisites
 ## Cleaning
 Firstly we need to clean all the "important and cool apps"
 1. Install ADB
-2. Look at the uninstall.md in this folder. I have added which are save to remove and which I don't recommend, or use package list -> https://play.google.com/store/apps/details?id=me.iofel.packagelist&hl=en
+2. Look at the uninstall.md or list.md in this folder. I have added which are save to remove and which I don't recommend. In uninstall.md you have the already done commands you can run in your terminal. In list.md you have more infotmation on which package with what is connected.
 3. Open a terminal or CMD and write:
 adb shell
 pm uninstall -k --user 0 <package id>

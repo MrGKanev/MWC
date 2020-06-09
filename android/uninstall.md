@@ -1,124 +1,91 @@
-Package -> Name -> Priority
-com.mobeam.barcodeService
-com.samsung.android.provider.filterprovider
-com.monotype.android.font.rosemary
-com.skype.raider -> Skype -> Save to remove
-com.sec.android.widgetapp.samsungapps
-com.google.android.youtube -> Youtube -> Save to remove
-com.samsung.android.app.galaxyfinder
-com.sec.location.nsflp2
-com.sec.android.app.chromecustomizations
-com.samsung.android.app.cocktailbarservice
-com.samsung.svoice.sync
-com.cnn.mobile.android.phone.edgepanel
-com.sec.automation
-com.sec.android.mimage.gear360editor
-com.android.wallpapercropper
-com.sec.android.app.wfdbroker
-com.samsung.android.app.withtv
-com.samsung.android.hmt.vrshell
-com.lookout
-com.koodo.selfserve
-com.samsung.android.easysetup
-com.sec.android.easyonehand
-com.diotek.sec.lookup.dictionary
-com.sec.android.easyMover.Agent
-com.sec.android.app.tourviewer
-com.monotype.android.font.foundation
-com.sec.android.widgetapp.easymodecontactswidget
-com.qualcomm.qti.auth.fidocryptoservice
-com.microsoft.office.excel
-com.sec.android.app.billing
-com.sec.epdgtestapp
-com.samsung.android.game.gamehome
-com.samsung.android.widgetapp.yahooedge.finance
-com.samsung.android.slinkcloud
-com.dsi.ant.service.socket
-com.sec.android.AutoPreconfig
-com.microsoft.skydrive - OneDrive
-com.sec.android.ofviewer
-com.samsung.android.drivelink.stub
-com.samsung.hs20provider
-com.dsi.ant.sample.acquirechannels
-com.android.stk
-com.android.backupconfirm
-com.samsung.android.widgetapp.yahooedge.sport
-com.sec.android.app.SecSetupWizard
-com.samsung.android.bixby.agent
-com.google.android.apps.tachyon
-com.sec.bcservice
-com.sec.android.uibcvirtualsoftkey
-com.samsung.android.sdk.professionalaudio.utility.jammonitor
-com.android.sharedstoragebackup
-com.google.android.music
-com.android.printspooler
-com.samsung.android.hmt.vrsvc
-com.samsung.android.bixby.es.globalaction
-com.samsung.storyservice
-com.android.dreams.basic
-com.samsung.android.app.talkback
-com.samsung.android.game.gametools
-com.samsung.android.service.peoplestripe
-com.sec.android.gallery3d.panorama360view
-com.sec.enterprise.mdm.vpn
-com.dsi.ant.plugins.antplus
-com.samsung.android.app.taskedge
-com.microsoft.office.word
-com.samsung.android.app.advsounddetector
-com.microsoft.office.powerpoint
-com.samsung.android.app.mirrorlink
-com.samsung.android.app.vrsetupwizardstub
-com.google.android.syncadapters.contacts
-com.android.chrome
-com.google.android.tts
-com.samsung.android.spdfnote
-com.google.android.videos
-com.dsi.ant.server
-com.sec.android.mimage.photoretouching
-com.sec.android.app.sns3
-flipboard.boxer.app
-com.google.android.syncadapters.calendar
-com.samsung.android.app.filterinstaller
-com.sec.android.providers.tasks
-com.monotype.android.font.chococooky
-com.android.dreams.phototable
-com.samsung.safetyinformation
-com.facebook.katana
-com.samsung.app.highlightplayer
-com.android.providers.partnerbookmarks
-com.samsung.android.keyguardwallpaperupdator
-com.android.wallpaper.livepicker
-com.samsung.android.beaconmanager
-com.sec.enterprise.mdm.services.simpin
-com.amazon.mShop.android
-com.facebook.system -> Facebook app -> Save to remove (makes you happier)
-com.samsung.android.oneconnect
-com.samsung.android.fmm
-com.samsung.android.mdm
-com.samsung.android.bixby.wakeup
-com.samsung.android.app.interactivepanoramaviewer
-com.samsung.android.samsungpass
-com.samsung.android.bixby.plmsync
-com.samsung.android.scloud
-com.samsung.android.spayfw
-com.samsung.android.svoice
-com.samsung.android.visioncloudagent
-com.samsung.android.spay
-com.samsung.android.app.spage - Bixby home
-com.sec.android.emergencylauncher
-com.sec.hearingadjust
-com.samsung.android.dlp.service
-com.samsung.android.bbc.bbcagent
-com.samsung.android.visionintelligence
-com.samsung.android.app.watchmanagerstub
-com.policydm
-com.qualcomm.qti.tetherservice
-com.samsung.android.mateagent
-com.android.providers.userdictionary
-com.samsung.android.app.appsedge
-com.monotype.android.font.cooljazz
-com.facebook.appmanager
-com.qualcomm.qti.auth.fidosuiservice
-com.sec.android.app.magnifier
-com.samsung.android.bixby.agent.dummy
-com.sec.android.inputmethod -> Samsung Keyboard -> Save to remove
+BIXBY
+pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
+pm uninstall -k --user 0 com.samsung.android.app.spage
+pm uninstall -k --user 0 com.samsung.android.app.routines
+pm uninstall -k --user 0 com.samsung.android.bixby.service
+pm uninstall -k --user 0 com.samsung.android.visionintelligence
+pm uninstall -k --user 0 com.samsung.android.bixby.agent
+pm uninstall -k --user 0 com.samsung.android.bixby.agent.dummy
+pm uninstall -k --user 0 com.samsung.android.bixbyvision.framework
+
+GENERAL SYSTEM
+pm uninstall -k --user 0 com.dsi.ant.sample.acquirechannels
+pm uninstall -k --user 0 com.dsi.ant.service.socket
+pm uninstall -k --user 0 com.dsi.ant.server
+pm uninstall -k --user 0 com.dsi.ant.plugins.antplus
+pm uninstall -k --user 0 com.android.egg
+pm uninstall -k --user 0 com.sec.android.easyonehand
+pm uninstall -k --user 0 com.sec.android.widgetapp.samsungapps
+pm uninstall -k --user 0 com.sec.android.app.launcher
+pm uninstall -k --user 0 com.samsung.android.mateagent
+pm uninstall -k --user 0 com.sec.android.easyMover.Agent
+pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub
+pm uninstall -k --user 0 com.sec.android.daemonapp
+pm uninstall -k --user 0 com.samsung.android.app.social
+
+SAMSUNG PASS / PAY
+pm uninstall -k --user 0 com.samsung.android.samsungpassautofill
+pm uninstall -k --user 0 com.samsung.android.authfw
+pm uninstall -k --user 0 com.samsung.android.samsungpass
+pm uninstall -k --user 0 com.samsung.android.spay
+pm uninstall -k --user 0 com.samsung.android.spayfw
+
+GIMMICKY APPS
+pm uninstall -k --user 0 com.samsung.android.aremoji
+pm uninstall -k --user 0 com.google.ar.core
+pm uninstall -k --user 0 flipboard.boxer.app
+pm uninstall -k --user 0 com.samsung.android.wellbeing
+pm uninstall -k --user 0 com.samsung.android.da.daagent
+pm uninstall -k --user 0 com.samsung.android.service.livedrawing
+pm uninstall -k --user 0 com.sec.android.mimage.avatarstickers
+
+FACEBOOK
+pm uninstall -k --user 0 com.facebook.katana
+pm uninstall -k --user 0 com.facebook.system
+pm uninstall -k --user 0 com.facebook.appmanager
+pm uninstall -k --user 0 com.facebook.services
+
+CAR MODE
+pm uninstall -k --user 0 com.samsung.android.drivelink.stub
+
+PRINTING
+pm uninstall -k --user 0 com.android.bips
+pm uninstall -k --user 0 com.google.android.printservice.recommendation
+pm uninstall -k --user 0 com.android.printspooler
+
+SAMSUNG EMAIL
+pm uninstall -k --user 0 com.samsung.android.email.provider
+pm uninstall -k --user 0 com.wsomacp
+
+SAMSUNG GAME LAUNCHER
+pm uninstall -k --user 0 com.samsung.android.game.gamehome
+pm uninstall -k --user 0 com.enhance.gameservice
+pm uninstall -k --user 0 com.samsung.android.game.gametools
+pm uninstall -k --user 0 com.samsung.android.game.gos
+pm uninstall -k --user 0 com.samsung.android.gametuner.thin
+
+SAMSUNG BROWSER
+pm uninstall -k --user 0 com.sec.android.app.sbrowser
+pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
+
+GEAR VR
+pm uninstall -k --user 0 com.samsung.android.hmt.vrsvc
+pm uninstall -k --user 0 com.samsung.android.app.vrsetupwizardstub
+pm uninstall -k --user 0 com.samsung.android.hmt.vrshell
+pm uninstall -k --user 0 com.google.vr.vrcore
+
+SAMSUNG KIDS
+pm uninstall -k --user 0 com.samsung.android.kidsinstaller
+pm uninstall -k --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
+
+SAMSUNG LED COVER
+pm uninstall -k --user 0 com.samsung.android.app.ledbackcover
+pm uninstall -k --user 0 com.sec.android.cover.ledcover
+
+EDGE
+pm uninstall -k --user 0 com.samsung.android.service.peoplestripe
+
+SAMSUNG DEX
+pm uninstall -k --user 0 com.sec.android.desktopmode.uiservice
+pm uninstall -k --user 0 com.samsung.desktopsystemui
+pm uninstall -k --user 0 com.sec.android.app.desktoplauncher
