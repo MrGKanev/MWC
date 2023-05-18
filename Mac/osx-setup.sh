@@ -1,14 +1,14 @@
 # #################################################################
 #
 # The MWC script is made to work on Mac OS.
-# Written to be used on 64 bits computers
+# Written to be used on M based CPU's (Apple's new architecture)
 #
 # Original Author   : Gabriel Kanev
 # Website           : https://www.mrgkanev.eu
 #
-# Version           : 1.0.2
+# Version           : 1.0.3
 # Start date        : 28/04/2018
-# Last modified date: 22/04/2020
+# Last modified date: 18/05/2023
 #
 # #################################################################
 
@@ -51,17 +51,8 @@ echo "Git config"
 git config --global user.name "mrgkanev"
 git config --global user.email contact@mrgkanev.eu
 
-
-brew install htop zsh
-brew install tmux reattach-to-user-namespace
-
-echo "Installing brew git utilities..."
-brew install git-extras
-brew install legit
-brew install wget
-brew install trash
-brew install mackup
-brew install node
+# Installing sh*t with brew
+brew bundle
 
 # Lets clean the stuff up
 echo "Cleaning up brew"

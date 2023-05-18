@@ -1,9 +1,10 @@
 ## Windows version of MWC
 
 ## Software
-There will be some steps for installing all the software on your computer. For now i don't know an alternative to Linux terminal that can install software like that. 
-1. Clean all the bloadware that Windows 10 has. Running Remove-windows10-bloat.bat as Administrator.
-2. The first software we are going to use is [Ninite](https://ninite.com). They are fremium software so i think it will be great for here.
+There will be some steps for installing all the software on your computer. For now, I don't know an alternative to Linux terminal that can install software like that.
+
+1. Clean all the bloadware that Windows 10 has. Running Remove-windows10-bloat.bat as Administrator. - it is an old script.
+2. The first software we are going to use is [Ninite](https://ninite.com). They are "fremium" software so I think it will be great for here.
 
 | Name     | License |
 | ---      | ---     |
