@@ -1,12 +1,14 @@
 ## <img src="https://cdn.rawgit.com/MrGKanev/MWC/master/img/icons/computer.svg" height="20"> MWC
-## :construction: This repo is in beta stage! :construction:
-I use this nearly every week and that is why I started updaing it.If you feel I am missing interesting things, put it on the [issues](https://github.com/mrgkanev/mwc/issues) and I'll definitely try it out.
-## What is the diffirence between MWC and (someone else setup)?
-I work in a mix of environments or in other words in home i have Windows and Linux and at work i have to use Mac OS. So that is why this project is started. To help others who were like me in the beggining and if there are better alternatives to my suggestions it will be a WIN WIN senario. 
+
+## What is the difference between MWC and (someone else setup)?
+
+I have to use a combination of OSs to be productive in all my endeavors. That is why this repo was created. Every OS is used for what it is best at. - or at least in my opinion
+
 ## <img src="https://cdn.rawgit.com/MrGKanev/MWC/master/img/icons/face.svg" height="20"> Guides
-- [Chrome extensions](/chrome-extensions.md)
-- [Firefox extensions](/firefox-extensions.md)
-- [Windows setup](windows/readme.md)
-- [Linux (Ubuntu) based setup](linux/ubuntu.md)
-- [Linux (Manjaro) based setup](linux/manjaro.md) 
-- [Mac OS setup](mac/readme.md)
+- [Chrome extensions](/chrome-extensions.md) - main browser
+- [Firefox extensions](/firefox-extensions.md) - testing browser
+- [Mac OS setup](mac/readme.md) - main work setup
+- [Linux (Ubuntu) based setup](linux/ubuntu.md) - secound work setup
+- [Windows setup](windows/readme.md) - mostly gaming station + Microsoft Office
+
+
