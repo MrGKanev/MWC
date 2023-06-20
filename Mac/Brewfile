@@ -1,6 +1,8 @@
+# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# Apps
 brew "docker"
 brew "handbrake"
 brew "python@3.11"
@@ -38,3 +40,5 @@ cask "tor-browser"
 cask "utm"
 cask "visual-studio-code"
 cask "vlc"
+cask "the-unarchiver"
+cask "transmit"
